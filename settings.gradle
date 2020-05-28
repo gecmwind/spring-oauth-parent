@@ -1,0 +1,5 @@
+rootProject.name = 'spring-oauth-parent'
+include 'authorization-code-server'
+include 'oauth-client'
+include 'password-server'
+
