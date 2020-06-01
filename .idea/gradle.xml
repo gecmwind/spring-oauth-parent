@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/authorization-code-server" />
             <option value="$PROJECT_DIR$/oauth-client" />
             <option value="$PROJECT_DIR$/password-server" />
+            <option value="$PROJECT_DIR$/spring-oauth2-samples" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
