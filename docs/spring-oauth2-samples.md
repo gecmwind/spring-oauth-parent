@@ -1,0 +1,1 @@
+参考 <a href="https://github.com/spring-projects/spring-security-oauth/tree/master/samples/oauth2">官方demo</a>，改为springboot框架
