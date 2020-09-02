@@ -40,12 +40,14 @@ subprojects {
         // Log4j2
         compile("org.springframework.boot:spring-boot-starter-log4j2:$springBootVersion")
         // JSON
-//        compile("com.alibaba:fastjson:$fastjsonVersion")
+        compile("com.alibaba:fastjson:$fastjsonVersion")
         // Apache Commons
         compile("org.apache.commons:commons-lang3:3.8.1")
         // 单元测试
         testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
         testCompile("junit:junit:4.12")
+        compileOnly "org.projectlombok:lombok:1.18.8"
+        annotationProcessor 'org.projectlombok:lombok:1.18.8'
     }
     configurations {
         //移除spring boot 默认logger依赖
